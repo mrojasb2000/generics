@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// data type restricted by Stringer interfaces
+// we constrain the data type using Stringer interfaces
 type Stringer = interface {
 	String() string
 }
